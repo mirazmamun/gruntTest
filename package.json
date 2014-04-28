@@ -1,0 +1,23 @@
+{
+  "name": "gruntTest",
+  "version": "0.0.9",
+  "description": "A sample of Grunt test runner",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mirazmamun/gruntTest"
+  },
+  "keywords": [
+    "Grunt",
+    "Test"
+  ],
+  "author": "Miraz Al-Mamun <mirazalmamun@gmail.com> (http://mirazalmamun.wordpress.com/)",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/mirazmamun/gruntTest/issues"
+  },
+  "homepage": "https://github.com/mirazmamun/gruntTest"
+}
