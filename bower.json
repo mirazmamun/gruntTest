@@ -1,0 +1,24 @@
+{
+  "name": "gruntTest",
+  "version": "0.0.9",
+  "homepage": "https://github.com/mirazmamun/gruntTest",
+  "authors": [
+    "Miraz Al-Mamun <mirazalmamun@gmail.com>"
+  ],
+  "description": "Grunt Test",
+  "main": "index.html",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "Grunt"
+  ],
+  "license": "GPLv3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
