@@ -35,7 +35,7 @@ module.exports = function(grunt){
 
 		},
 		lint: {
-		    files: ['hello.js']
+		    files: ['js/site.js']
 		}
 	});
 	//the loadtask
