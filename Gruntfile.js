@@ -33,6 +33,9 @@ module.exports = function(grunt){
 				}
 			}
 
+		},
+		lint: {
+		    files: ['hello.js']
 		}
 	});
 	//the loadtask
@@ -42,4 +45,7 @@ module.exports = function(grunt){
 	grunt.loadNpmTasks('grunt-express');
 	grunt.registerTask('default',['less', 'coffee']);
 	grunt.registerTask('server',['express','watch']);
+	
+	//the travis task
+  	grunt.registerTask('travis', 'lint');
 }
